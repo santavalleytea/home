@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #000;
+    color:white;
+      
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #00F;
+}
+
+#header{
+    border-bottom: 1px solid #00F;
+    padding: 10px;
+}
+
+#header h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#header nav a{
+    color: #0F0;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+#header nav a:hover{
+    color: #00F;
+}
+
+#about{
+    margin: 50px 0;
+}
+
+.sub-title{
+    color: #0F0;
+    font-size: 24px;
+    margin: 10px 0;
+    animation: typing 3s steps(30, end) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.social-icons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-icons a{
+    color: #0F0;
+    margin-right: 20px;
+}
+
+.social-icons a:hover{
+    color: #00F;
+}
+
+.fa-terminal:before{
+    content: "\f120";
+}
+
+.fa-code:before{
+    content: "\f121";
+}
+
+.fa-github:before{
+    content: "\f09b";
+}
+
+.fa-linkedin:before{
+    content: "\f08c";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.terminal::before {
+    content: "_";
+    display: inline-block;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .terminal p {
+    background-color: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .terminal p::before {
+    content: "$ ";
+  }
+  
+  .terminal p span {
+    color: #0FF;
+  }
+  
+  /*loading animation*/
+  #loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#loading .spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #0FF;
+  border-top-color: transparent;
+  animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
