@@ -10,7 +10,7 @@ HTML <br>
 CSS <br>
 JavaScript <br>
 
-##Contact
+## Contact
 
 takayaueno0712@gmail.com <br>
 santavalleytea#7356
