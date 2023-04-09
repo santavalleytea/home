@@ -1,5 +1,8 @@
 # Terminal-Style Personal Website
 
+![about](https://github.com/santavalleytea/home/blob/main/screenshot/terminal.about.PNG)
+![contact](https://github.com/santavalleytea/home/blob/main/screenshot/terminal.contact.PNG)
+
 ## Description
 
 Personal website to find more about me, with a terminal-like theme to it
