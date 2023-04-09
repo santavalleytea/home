@@ -1,6 +1,7 @@
 # Terminal-Style Personal Website
 
-![about](https://github.com/santavalleytea/home/blob/main/screenshot/terminal.about.PNG)
+![about](https://github.com/santavalleytea/home/blob/main/screenshot/terminal.about.PNG) 
+<br><br>
 ![contact](https://github.com/santavalleytea/home/blob/main/screenshot/terminal.contact.PNG)
 
 ## Description
